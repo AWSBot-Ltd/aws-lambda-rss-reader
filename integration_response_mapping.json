@@ -1,0 +1,19 @@
+#set($inputRoot = $input.path('$'))
+{
+"items" : [
+        #foreach($elem in $inputRoot.Items) {
+            "channel_title": "$elem.channel_title.S",
+            "summary": "$elem.summary.S",
+            "published": "$elem.published.S",
+            "term": "$elem.term.S",
+            "channel_version": "$elem.channel_version.S",
+            "channel_description": "$elem.channel_description.S",
+            "link": "$elem.link.S",
+            "id": "$elem.id.S",
+            "channel_link": "$elem.channel_link.S",
+            "author": "$elem.author.S",
+            "title": "$elem.title.S"
+        }#if($foreach.hasNext),#end
+	#end
+    ]
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "table_name": "aws-rss-whats-new",
+    "rss_url": "https://aws.amazon.com/new/feed/"
+  },
+  {
+    "table_name": "aws-rss-whats-new",
+    "rss_url": "http://feeds.feedburner.com/AmazonWebServicesBlog"
+  },
+  {
+    "table_name": "aws-rss-whats-new",
+    "rss_url": "http://status.aws.amazon.com/rss/all.rss"
+  }
+]
